@@ -4,10 +4,13 @@
 jQuery(document).ready( function(){
     var TimerID;
     document.getElementById('to_lviv_search').onclick = function(){
-        var date_to_lviv = document.getElementById('date_to_lviv').value;
+        var date_to_lviv = document.getElementById('date_to_lviv').value,
+            simferopol_id = 2210001,
+            lviv_id = 2218000,
+            kharkiv_id = 2204001;
         $.ajax({
             url: "http://www.pz.gov.ua/rezerv/aj_g60.php",
-            data: 'kstotpr=2204001&kstprib=2218000&sdate='+date_to_lviv
+            data: 'kstotpr='+ simferopol_id +'&kstprib='+lviv_id+'&sdate='+date_to_lviv
         }).done(function(responce) {
             var obj = eval("("+responce+")");
             console.log( "From: "+ obj.nstotpr );
@@ -17,6 +20,10 @@ jQuery(document).ready( function(){
                 console.log( " ERROR: "+ obj.error[0] );
             } else {
                 for (var i = 0; i < obj.trains.length; i++){
+                    if( obj.trains[i].train[0] == '086П' && +obj.trains[i].k > 0 ) {
+                        alert('available');
+                    };
+                    console.log(obj.trains[i].train[1] == '086П' ? true: false);
                     console.log("    DATE: " + obj.trains[i].date);
                     console.log("    OTPRAVLENIE IS "+obj.trains[i].from[0]+": " + obj.trains[i].otpr);
                     console.log("    PRIBITIE V "+obj.trains[i].to[0]+": " + obj.trains[i].prib);
