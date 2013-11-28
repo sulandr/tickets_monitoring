@@ -4,13 +4,28 @@
 jQuery(document).ready( function(){
     var TimerID;
     document.getElementById('to_lviv_search').onclick = function(){
-        var date_to_lviv = document.getElementById('date_to_lviv').value,
+        var date_to_go = document.getElementById('date_to_go').value,
             simferopol_id = 2210001,
             lviv_id = 2218000,
-            kharkiv_id = 2204001;
+            kharkiv_id = 2204001,
+            city_from_name = '',
+            city_from_id = kharkiv_id,
+            city_till_name = '',
+            city_till_id = lviv_id,
+            input_string,
+            data_city = {
+                type: 'Get',
+                url: 'http://www.pz.gov.ua/rezerv/aj_stations.php?stan=' + input_string
+            },
+            data_train = {
+                type: 'Post',
+                url: '"http://www.pz.gov.ua/rezerv/aj_g60.php"',
+                data: 'kstotpr='+ city_from_id +'&kstprib='+city_till_id+'&sdate='+date_to_go
+            };
         $.ajax({
+            type: '',
             url: "http://www.pz.gov.ua/rezerv/aj_g60.php",
-            data: 'kstotpr='+ simferopol_id +'&kstprib='+lviv_id+'&sdate='+date_to_lviv
+            data: 'kstotpr='+ city_from_id +'&kstprib='+lviv_id+'&sdate='+lviv_id
         }).done(function(responce) {
             var obj = eval("("+responce+")");
             console.log( "From: "+ obj.nstotpr );
