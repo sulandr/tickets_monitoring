@@ -7,39 +7,29 @@
 <script src="jquery.2.0.3.js"></script>
 <script src="index.js"></script>
 <body>
-    <p>
-        <label for="input_from">Please input city From</label>        
-        <input type="text" id="input_from"/>
-        <select name="cities_from" id="city_from">
-            <option value=""></option>
-        </select>
-    </p>
-    <p>
-        <label for="input_till">Please input city Till</label>
-        <input type="text" id="input_till"/>
-        <select name="cities_till" id="city_till">
-            <option value=""></option>
-        </select>
-    </p>
-    <p>
-        <label for="date_to_go">Enter date to go</label>
-        <input type="text" id="date_to_go" placeholder="DD-MM-YYYY" value="04-01-2014"/>
-        <button id="search">Serch</button>
-    </p>
-    <p>
-        <button id="start_monitoring">Start Monitoring</button>
-        <button id="stop_monitoring">Stop Monitoring</button>
-    </p>
-    <div id="results_container" style="display: none">
-
-    <!--<div id="result_city_to_KhL"></div>-->
-    </div>
-    <!--<div id="results_LKh_container">-->
-        <!--<label for="city_from_LKh">From</label>-->
-        <!--<input type="text" id="city_from_LKh"/>-->
-        <!--<label for="city_to_LKh">To</label>-->
-        <!--<input type="text" id="city_to_LKh"/>-->
-        <!--<div id="result_city_to_LKh"></div>-->
-    <!--</div>-->
+<p>
+    <label for="input_from">Please input city From</label>
+    <input type="text" id="input_from"/>
+    <select name="cities_from" id="city_from"></select>
+</p>
+<p>
+    <label for="input_till">Please input city Till</label>
+    <input type="text" id="input_till"/>
+    <select name="cities_till" id="city_till"></select>
+</p>
+<p>
+    <label for="date_to_go">Enter date to go</label>
+    <input type="text" id="date_to_go" placeholder="DD-MM-YYYY" value="04-01-2014"/>
+    <button id="search">Search</button>
+</p>
+<p>
+    <button id="start_monitoring">Start Monitoring</button>
+    <button id="stop_monitoring">Stop Monitoring</button>
+</p>
+<div id="monitoring_container" style="display: none">
+    <input type="text" id="email" placeholder="example@domain.com" value="sulandr@yandex.ru"/>
+    <button id="send_mail">send</button>
+</div>
+<div id="results_container" style="display: none"></div>
 </body>
 </html>
