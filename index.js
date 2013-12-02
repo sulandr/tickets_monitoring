@@ -13,9 +13,19 @@ jQuery(document).ready( function(){
             },
             data: data.reqData,
             success: function(response){
-                console.log(response.substr(120));
-                response[0] === '{' ? resp = eval("("+response+")") :
-                    response[0] === '[' ? resp = JSON.parse(response) : resp =  JSON.parse(response.substr(120));
+                switch (response[0]) {
+                    case '{':
+                        resp = eval("("+response+")");
+                        break;
+                    case '[':
+                        resp = JSON.parse(response);
+                        break;
+                    case '<':
+                        resp =  JSON.parse(response.substr(120));
+                        break;
+                    default :
+                        return;
+                }
                 data.callback(resp);
             }
         })
@@ -131,7 +141,7 @@ jQuery(document).ready( function(){
         var minutes = currentTime.getMinutes();
         if (minutes < 10) {
             minutes = "0" + minutes
-        };
+        }
         str += hours + ":" + minutes;
         return str;
     }
@@ -152,6 +162,7 @@ jQuery(document).ready( function(){
     getId('start_monitoring').onclick = function() {
         getId('monitoring_container').style.display = 'block';
         TimerID = setInterval( (function(){
+            console.log('last check on time: ', displayTime());
             var from = +getId('city_from').value,
                 till = +getId('city_till').value;
             findTrains(from, till);
@@ -162,8 +173,7 @@ jQuery(document).ready( function(){
                     }
                 }
             }
-            console.log(Trains);
-        }) , 6000);
+        }) , 100000);
     };
     getId('stop_monitoring').onclick = function() {
         clearInterval(TimerID);
