@@ -70,6 +70,7 @@ jQuery(document).ready( function(){
         var container = getId('results_container');
         container.innerHTML = '';
         if (obj.trains) {
+            getId('start_monitoring').style.display = 'none';
             for ( var i=0; i<obj.trains.length; i++){
                 container.innerHTML +=
                     "<p> ON TIME:__ "+ displayTime() +"___</p>" +
@@ -84,9 +85,9 @@ jQuery(document).ready( function(){
                     "<p>PLACKART: " + obj.trains[i].p  +"</p>"+
                     "<p>--------------------------------------------------------------</p>";
             }
-            alert('TICKETS AVAILABLE');
         }
         if (obj.error) {
+            getId('start_monitoring').style.display = 'block';
             for ( var i=0; i<obj.error.length; i++){
                 container.innerHTML +=
                     "<p style='color: red'> ON TIME___ " + displayTime() + " ___ERROR "+obj.error[i]+"</p>";
@@ -150,6 +151,9 @@ jQuery(document).ready( function(){
     getId('send_mail').onclick = function() {
         sendMail(Trains);
     };
+    getId('set_mail').onclick = function() {
+        getId('set_mail').style.display = 'none';
+    };
     getId('input_from').onkeyup = function(e){
         e.srcElement.value.length > 2 ? findCityId(e.srcElement.value, e.target.id) : false;
     };
@@ -163,6 +167,8 @@ jQuery(document).ready( function(){
     };
     getId('start_monitoring').onclick = function() {
         getId('monitoring_container').style.display = 'block';
+        getId('start_monitoring').style.display = 'none';
+        getId('stop_monitoring').style.display = ' block';
         TimerID = setInterval( (function(){
             console.log('last check on time: ', displayTime());
             var from = +getId('city_from').value,
@@ -173,12 +179,15 @@ jQuery(document).ready( function(){
                     if ( +Trains.trains[i].p > 0 || +Trains.trains[i].k >0 ) {
                         sendMail(Trains);
                         showTrains(Trains);
+                        alert('TICKETS AVAILABLE');
                     }
                 }
             }
         }) , 100000);
     };
     getId('stop_monitoring').onclick = function() {
+        getId('stop_monitoring').style.display = 'none';
+        getId('start_monitoring').style.display = 'block';
         clearInterval(TimerID);
         console.log('CLEAR');
     };
