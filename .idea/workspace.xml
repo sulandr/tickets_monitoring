@@ -32,7 +32,7 @@
           <file leaf-file-name="index.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
                   <folding />
                 </state>
               </provider>
@@ -41,9 +41,9 @@
           <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="86" column="39" selection-start="3791" selection-end="3791" vertical-scroll-proportion="0.4507772" vertical-offset="942" max-vertical-offset="2850">
+                <state line="159" column="26" selection-start="6330" selection-end="6330" vertical-scroll-proportion="0.22873347" vertical-offset="2582" max-vertical-offset="3230">
                   <folding>
-                    <marker date="1386673023000" expanded="true" signature="3950:3960" placeholder="..." />
+                    <marker date="1386870585438" expanded="false" signature="3948:3958" placeholder="..." />
                   </folding>
                 </state>
               </provider>
@@ -56,7 +56,7 @@
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="22" column="30" selection-start="679" selection-end="679" vertical-scroll-proportion="0.42635658" vertical-offset="0" max-vertical-offset="774">
+                <state line="22" column="30" selection-start="679" selection-end="679" vertical-scroll-proportion="0.42045453" vertical-offset="152" max-vertical-offset="680">
                   <folding />
                 </state>
               </provider>
@@ -89,10 +89,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="54" />
-    <option name="y" value="121" />
-    <option name="width" value="1625" />
-    <option name="height" value="959" />
+    <option name="x" value="1" />
+    <option name="width" value="1364" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -120,7 +119,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -141,6 +139,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -253,14 +252,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="121" width="1625" height="959" extended-state="0" />
+    <frame x="1" y="0" width="1364" height="728" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32818073" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496879" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1298377" sideWeight="0.67103696" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12982196" sideWeight="0.67103696" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -298,7 +297,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="16" selection-start="1605" selection-end="1605" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="1560">
           <folding>
-            <marker date="1386673023000" expanded="true" signature="3950:3960" placeholder="..." />
+            <marker date="1386870585438" expanded="false" signature="3948:3958" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -321,7 +320,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="16" selection-start="1605" selection-end="1605" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="1560">
           <folding>
-            <marker date="1386673023000" expanded="true" signature="3950:3960" placeholder="..." />
+            <marker date="1386870585438" expanded="false" signature="3948:3958" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -344,7 +343,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="64" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1394">
           <folding>
-            <marker date="1386673023000" expanded="true" signature="3950:3960" placeholder="..." />
+            <marker date="1386870585438" expanded="false" signature="3948:3958" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -367,7 +366,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="64" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1360">
           <folding>
-            <marker date="1386673023000" expanded="true" signature="3950:3960" placeholder="..." />
+            <marker date="1386870585438" expanded="false" signature="3948:3958" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -398,16 +397,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="30" selection-start="679" selection-end="679" vertical-scroll-proportion="0.42635658" vertical-offset="0" max-vertical-offset="774">
+        <state line="22" column="30" selection-start="679" selection-end="679" vertical-scroll-proportion="0.42045453" vertical-offset="152" max-vertical-offset="680">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="39" selection-start="3791" selection-end="3791" vertical-scroll-proportion="0.4507772" vertical-offset="942" max-vertical-offset="2850">
+        <state line="159" column="26" selection-start="6330" selection-end="6330" vertical-scroll-proportion="0.22873347" vertical-offset="2582" max-vertical-offset="3230">
           <folding>
-            <marker date="1386673023000" expanded="true" signature="3950:3960" placeholder="..." />
+            <marker date="1386870585438" expanded="false" signature="3948:3958" placeholder="..." />
           </folding>
         </state>
       </provider>

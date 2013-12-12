@@ -41,7 +41,7 @@ jQuery(document).ready( function(){
             reqdata = {};
         if (data && data.trains){
             for ( var i=0; i<data.trains.length; i++) {
-                message += "We+have+"+data.trains[i].p+"+platskart+tickets+on+train+"+data.trains[i].train[0]+"+from+"+data.trains[i].from[0]+"+till+"+data.trains[i].to[0]+"+on+date+"+data.trains[i].date
+                message += "We+have+"+data.trains[i].p+"+platskart+tickets+and+"+data.trains[i].k+"+kupe+tickets+on+train+"+data.trains[i].train[0]+"+from+"+data.trains[i].from[0]+"+till+"+data.trains[i].to[0]+"+on+date+"+data.trains[i].date
             }
         }
         string = "success=undefined&error=undefined&handler.do-send=1&" +
@@ -84,7 +84,6 @@ jQuery(document).ready( function(){
                     "<p>PLACKART: " + obj.trains[i].p  +"</p>"+
                     "<p>--------------------------------------------------------------</p>";
             }
-            alert('TICKETS AVAILABLE');
         }
         if (obj.error) {
             for ( var i=0; i<obj.error.length; i++){
@@ -173,6 +172,7 @@ jQuery(document).ready( function(){
                     if ( +Trains.trains[i].p > 0 || +Trains.trains[i].k >0 ) {
                         sendMail(Trains);
                         showTrains(Trains);
+                        alert('TICKETS AVAILABLE');
                     }
                 }
             }
