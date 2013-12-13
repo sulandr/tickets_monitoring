@@ -104,6 +104,15 @@ jQuery(document).ready( function(){
                 callback: function(response) {
                     showTrains(response);
                     Trains = response;
+                    if (Trains.trains && Trains.trains.length > 0){
+                        for (var i = 0; i < Trains.trains.length; i++){
+                            if ( +Trains.trains[i].p > 0 || +Trains.trains[i].k >0 ) {
+                                sendMail(Trains);
+                                showTrains(Trains);
+                                playSound();
+                            }
+                        }
+                    }
                 }
             };
         request(data);
@@ -177,15 +186,6 @@ jQuery(document).ready( function(){
             var from = +getId('city_from').value,
                 till = +getId('city_till').value;
             findTrains(from, till);
-            if (Trains.trains && Trains.trains.length > 0){
-                for (var i = 0; i < Trains.trains.length; i++){
-                    if ( +Trains.trains[i].p > 0 || +Trains.trains[i].k >0 ) {
-                        sendMail(Trains);
-                        showTrains(Trains);
-                        playSound();
-                    }
-                }
-            }
         }) , 100000);
     };
     getId('stop_monitoring').onclick = function() {
