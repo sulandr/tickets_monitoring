@@ -148,6 +148,9 @@ jQuery(document).ready( function(){
         str += hours + ":" + minutes;
         return str;
     }
+    function playSound() {
+        getId('sound').innerHTML='<audio autoplay="autoplay"><source src="sound.mp3" type="audio/mpeg" /><embed hidden="true" autostart="true" loop="false" src="/sound.mp3"/></audio>';
+    }
     getId('send_mail').onclick = function() {
         sendMail(Trains);
     };
@@ -179,7 +182,7 @@ jQuery(document).ready( function(){
                     if ( +Trains.trains[i].p > 0 || +Trains.trains[i].k >0 ) {
                         sendMail(Trains);
                         showTrains(Trains);
-                        alert('TICKETS AVAILABLE');
+                        playSound();
                     }
                 }
             }
