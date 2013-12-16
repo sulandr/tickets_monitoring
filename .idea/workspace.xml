@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82c06f70-7125-4d60-9a49-52c47ef804b8" name="Default" comment="email sending">
+    <list default="true" id="82c06f70-7125-4d60-9a49-52c47ef804b8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="59fe9f8d-f777-421e-93ae-24e4fa404d04" name="Rejected commit: Default" comment="email sending" />
@@ -31,18 +31,18 @@
           <file leaf-file-name="index.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="115" column="3" selection-start="5053" selection-end="5053" vertical-scroll-proportion="0.8770161" vertical-offset="1290" max-vertical-offset="3030">
+                <state line="168" column="26" selection-start="6695" selection-end="6695" vertical-scroll-proportion="0.22873347" vertical-offset="2735" max-vertical-offset="3383">
                   <folding>
-                    <marker date="1386939643000" expanded="true" signature="4035:4045" placeholder="..." />
+                    <marker date="1386881679302" expanded="true" signature="4073:4083" placeholder="..." />
                   </folding>
                 </state>
               </provider>
@@ -52,15 +52,14 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="4" column="7" selection-start="64" selection-end="64" vertical-scroll-proportion="0.12711865" vertical-offset="0" max-vertical-offset="630">
+                <state line="23" column="4" selection-start="693" selection-end="693" vertical-scroll-proportion="0.42045453" vertical-offset="169" max-vertical-offset="697">
                   <folding>
                     <element signature="n#style#0;n#button#0;n#p#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#button#1;n#p#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#button#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -93,10 +92,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="384" />
-    <option name="y" value="128" />
-    <option name="width" value="1625" />
-    <option name="height" value="959" />
+    <option name="x" value="1" />
+    <option name="width" value="1364" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -124,7 +122,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -145,6 +142,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -159,11 +157,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="D:\workspace\ajax_tickets" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager">
@@ -238,22 +232,10 @@
       <updated>1385976687164</updated>
     </task>
     <task id="LOCAL-00003" summary="email sending">
-      <created>1386693980925</created>
-      <updated>1386693980925</updated>
+      <created>1386881663554</created>
+      <updated>1386881663554</updated>
     </task>
-    <task id="LOCAL-00004" summary="email sending">
-      <created>1386881389587</created>
-      <updated>1386881389587</updated>
-    </task>
-    <task id="LOCAL-00005" summary="email sending">
-      <created>1386936975742</created>
-      <updated>1386936975742</updated>
-    </task>
-    <task id="LOCAL-00006" summary="email sending">
-      <created>1386939734745</created>
-      <updated>1386939734745</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -277,7 +259,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="384" y="128" width="1625" height="959" extended-state="0" />
+    <frame x="1" y="0" width="1364" height="728" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -285,12 +267,12 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32818073" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496879" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1298377" sideWeight="0.67103696" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12982196" sideWeight="0.67116356" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32896304" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288364" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -318,6 +300,15 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="16" selection-start="1605" selection-end="1605" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="1560">
+          <folding>
+            <marker date="1386881679302" expanded="true" signature="4073:4083" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="9" selection-start="874" selection-end="874" vertical-scroll-proportion="0.0" vertical-offset="166" max-vertical-offset="750">
@@ -325,7 +316,6 @@
             <element signature="n#style#0;n#button#0;n#p#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#1;n#p#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -341,7 +331,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="16" selection-start="1605" selection-end="1605" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="1560">
           <folding>
-            <marker date="1386939643000" expanded="true" signature="4035:4045" placeholder="..." />
+            <marker date="1386881679302" expanded="true" signature="4073:4083" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -353,7 +343,6 @@
             <element signature="n#style#0;n#button#0;n#p#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#1;n#p#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -369,7 +358,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="64" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1394">
           <folding>
-            <marker date="1386939643000" expanded="true" signature="4035:4045" placeholder="..." />
+            <marker date="1386881679302" expanded="true" signature="4073:4083" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -381,7 +370,6 @@
             <element signature="n#style#0;n#button#0;n#p#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#1;n#p#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -397,7 +385,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="64" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1360">
           <folding>
-            <marker date="1386939643000" expanded="true" signature="4035:4045" placeholder="..." />
+            <marker date="1386881679302" expanded="true" signature="4073:4083" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -409,7 +397,6 @@
             <element signature="n#style#0;n#button#0;n#p#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#1;n#p#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -431,30 +418,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sound.mp3">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="13725">
-          <folding />
+        <state line="23" column="4" selection-start="693" selection-end="693" vertical-scroll-proportion="0.42045453" vertical-offset="169" max-vertical-offset="697">
+          <folding>
+            <element signature="n#style#0;n#button#0;n#p#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#1;n#p#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="3" selection-start="5053" selection-end="5053" vertical-scroll-proportion="0.8770161" vertical-offset="1290" max-vertical-offset="3030">
+        <state line="168" column="26" selection-start="6695" selection-end="6695" vertical-scroll-proportion="0.22873347" vertical-offset="2735" max-vertical-offset="3383">
           <folding>
-            <marker date="1386939643000" expanded="true" signature="4035:4045" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="7" selection-start="64" selection-end="64" vertical-scroll-proportion="0.12711865" vertical-offset="0" max-vertical-offset="630">
-          <folding>
-            <element signature="n#style#0;n#button#0;n#p#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#1;n#p#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1386881679302" expanded="true" signature="4073:4083" placeholder="..." />
           </folding>
         </state>
       </provider>
