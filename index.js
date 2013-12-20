@@ -186,7 +186,7 @@ jQuery(document).ready( function(){
             var from = +getId('city_from').value,
                 till = +getId('city_till').value;
             findTrains(from, till);
-        }) , 100000);
+        }) , 50000);
     };
     getId('stop_monitoring').onclick = function() {
         getId('stop_monitoring').style.display = 'none';
